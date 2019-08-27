@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+        <name>ServiceNotifications</name>
+        <namespace>windows.sdk</namespace>
+        <version>1.0.0.0</version>
+        <author name="digitalpbk">
+            <info url="digitalpbk.com/?ref=gadget" text="digitalpbk.com"/>
+            <logo src="logo.png" />
+        </author>
+        <copyright>www.granulo.ba</copyright>
+        <description>Service notifications gadgets.</description>
+        <icons>
+            <icon height="48" width="48" src="icon.png" />
+        </icons>
+        <hosts>
+            <host name="sidebar">
+                <autoscaleDPI>true</autoscaleDPI>
+                <base type="HTML" apiVersion="1.0.0" src="index.html" />
+                <permissions>Full</permissions>
+                <platform minPlatformVersion="1.0" />
+                <defaultImage src="icon.png" />
+            </host>
+        </hosts>
+</gadget>
